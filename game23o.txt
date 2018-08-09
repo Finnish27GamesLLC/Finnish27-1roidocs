@@ -1,0 +1,1099 @@
+1roi APPLICATION OUTPUT
+
+ 
+Best Overall Strategies For The Play of the Player's Hand
+ 
+                        0      A      2      3      4      5      6      7      8      9      T      J      Q      K      total          
+ 
+Two Card Hands         0/ 0  22/26  20/25  19/25  19/25  19/25  19/25  18/25  18/24  18/24  19/24  21/24  21/25  21/25   
+Three Card Hands       0/ 0  22/27  21/27  20/26  20/26  20/26  19/26  19/26  19/26  19/26  20/25  21/25  21/26  21/26   
+Four Card Hands        0/ 0  24/27  23/27  23/27  23/27  23/27  23/27  23/27  23/27  23/27  23/27  23/27  23/27  23/27   
+Expected Return %    -3.435 -2.082 -0.691 -0.474 -0.244  0.014  0.267  0.523  0.708  0.908  0.954  0.874  0.731  0.279  -1.6684 
+Probabilities %       3.704  7.407  7.407  7.407  7.407  7.407  7.407  7.407  7.407  7.407  7.407  7.407  7.407  7.407 100.0000 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the set of combination-dependent-playing-strategy tables
+for use in games wherein the rank of the first card dealt to
+the player's initial hand is equal to or less than the rank
+of the second card dealt to the player's initial hand
+ 
+
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategy for the play of the player's hand.
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+00  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    00
+0A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      0A
+02  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      02
+03  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      03
+04  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      04
+05  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      05
+06  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      06
+07  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      07
+08  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      08
+09  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      09
+0T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      0T
+0J  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      0J
+0Q  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      0Q
+0K  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      0K
+AA  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      AA
+A2  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      A2
+A3  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      A3
+A4  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      A4
+A5  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      A5
+A6  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      A6
+A7  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      A7
+A8  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      A8
+A9  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      A9
+AT  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Stand  Stand  Stand  Stand  Hit    Hit      AT
+AJ  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AJ
+AQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AQ
+AK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AK
+22  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      22
+23  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      23
+24  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      24
+25  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      25
+26  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      26
+27  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      27
+28  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      28
+29  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      29
+2T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      2T
+2J  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      2J
+2Q  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      2Q
+2K  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      2K
+33  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      33
+34  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      34
+35  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      35
+36  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      36
+37  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      37
+38  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      38
+39  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      39
+3T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      3T
+3J  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      3J
+3Q  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      3Q
+3K  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      3K
+44  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      44
+45  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      45
+46  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      46
+47  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      47
+48  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      48
+49  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      49
+4T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      4T
+4J  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      4J
+4Q  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      4Q
+4K  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      4K
+55  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      55
+56  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      56
+57  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      57
+58  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      58
+59  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      59
+5T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      5T
+5J  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      5J
+5Q  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      5Q
+5K  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Stand  Stand  Stand  Hit    Hit    Hit    Hit      5K
+66  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      66
+67  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      67
+68  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      68
+69  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      69
+6T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      6T
+6J  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      6J
+6Q  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Stand  Stand  Stand  Hit    Hit    Hit    Hit      6Q
+6K  Stand  Hit    Hit    Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      6K
+77  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      77
+78  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      78
+79  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      79
+7T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      7T
+7J  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Stand  Stand  Stand  Hit    Hit    Hit    Hit      7J
+7Q  Stand  Hit    Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      7Q
+7K  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit      7K
+88  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      88
+89  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      89
+8T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      8T
+8J  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      8J
+8Q  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      8Q
+8K  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    8K
+99  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Stand  Hit    Hit    Hit    Hit      99
+9T  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      9T
+9J  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      9J
+9Q  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    9Q
+9K  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    9K
+TT  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      TT
+TJ  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TJ
+TQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TQ
+TK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TK
+JJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JJ
+JQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JQ
+JK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JK
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QQ
+QK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QK
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays data about
+the expected values of the game wager calculated for
+the best strategies for the play of the player's hands.
+
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+00  0.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000   00
+0A -1.000  0.429  0.636  0.640  0.647  0.662  0.673  0.693  0.705  0.718  0.737  0.767  0.769  0.675   0A
+02 -1.000  0.147  0.372  0.386  0.409  0.439  0.464  0.498  0.519  0.542  0.565  0.602  0.614  0.509   02
+03 -1.000  0.110  0.325  0.349  0.363  0.390  0.415  0.447  0.467  0.488  0.515  0.544  0.558  0.456   03
+04 -1.000  0.067  0.277  0.298  0.318  0.339  0.361  0.392  0.410  0.434  0.455  0.487  0.496  0.400   04
+05 -1.000  0.014  0.213  0.233  0.252  0.276  0.295  0.324  0.346  0.366  0.393  0.420  0.427  0.336   05
+06 -1.000 -0.041  0.149  0.168  0.186  0.208  0.229  0.260  0.279  0.301  0.326  0.349  0.355  0.268   06
+07 -1.000 -0.112  0.068  0.088  0.108  0.132  0.158  0.189  0.209  0.232  0.252  0.268  0.271  0.190   07
+08 -1.000 -0.172  0.003  0.024  0.045  0.073  0.099  0.132  0.153  0.177  0.190  0.200  0.198  0.123   08
+09 -1.000 -0.237 -0.065 -0.040 -0.015  0.012  0.041  0.073  0.095  0.120  0.128  0.130  0.125  0.054   09
+0T -1.000 -0.288 -0.112 -0.085 -0.061 -0.031 -0.002  0.031  0.053  0.080  0.088  0.080  0.069 -0.001   0T
+0J -1.000 -0.331 -0.146 -0.119 -0.091 -0.061 -0.028  0.007  0.030  0.056  0.066  0.054  0.034 -0.031   0J
+0Q -1.000 -0.358 -0.169 -0.139 -0.106 -0.069 -0.032  0.007  0.033  0.061  0.074  0.062  0.037 -0.021   0Q
+0K -1.000 -0.316 -0.121 -0.087 -0.054 -0.018  0.017  0.052  0.076  0.102  0.114  0.095  0.067  0.005   0K
+AA -1.000  0.362  0.577  0.582  0.589  0.604  0.616  0.637  0.650  0.664  0.682  0.704  0.701  0.666   AA
+A2 -1.000  0.208  0.421  0.436  0.457  0.484  0.506  0.537  0.556  0.576  0.596  0.621  0.645  0.568   A2
+A3 -1.000  0.154  0.358  0.380  0.396  0.422  0.444  0.473  0.491  0.507  0.523  0.571  0.575  0.504   A3
+A4 -1.000  0.092  0.291  0.313  0.332  0.354  0.375  0.402  0.417  0.428  0.470  0.501  0.503  0.433   A4
+A5 -1.000  0.031  0.219  0.241  0.261  0.282  0.301  0.327  0.338  0.375  0.400  0.428  0.428  0.362   A5
+A6 -1.000 -0.036  0.143  0.160  0.180  0.203  0.223  0.242  0.279  0.300  0.322  0.341  0.339  0.277   A6
+A7 -1.000 -0.102  0.071  0.095  0.116  0.140  0.153  0.201  0.222  0.245  0.258  0.272  0.267  0.206   A7
+A8 -1.000 -0.164  0.008  0.031  0.053  0.067  0.112  0.144  0.165  0.189  0.196  0.203  0.195  0.137   A8
+A9 -1.000 -0.219 -0.044 -0.019 -0.008  0.040  0.068  0.100  0.121  0.144  0.153  0.154  0.140  0.080   A9
+AT -1.000 -0.263 -0.078 -0.065 -0.019  0.011  0.042  0.075  0.107  0.142  0.216  0.160  0.110  0.049   AT
+AJ -1.000 -0.289 -0.014  0.047  0.101  0.156  0.208  0.263  0.302  0.340  0.405  0.459  0.367  0.310   AJ
+AQ -1.000 -0.104  0.123  0.193  0.261  0.327  0.382  0.445  0.493  0.535  0.592  0.673  0.657  0.581   AQ
+AK  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000   AK
+22 -1.000  0.059  0.278  0.277  0.300  0.328  0.351  0.383  0.403  0.424  0.447  0.485  0.496  0.398   22
+23 -1.000 -0.033  0.166  0.186  0.209  0.239  0.266  0.300  0.322  0.344  0.379  0.412  0.420  0.328   23
+24 -1.000 -0.086  0.108  0.131  0.153  0.179  0.204  0.236  0.258  0.288  0.316  0.343  0.349  0.263   24
+25 -1.000 -0.143  0.038  0.060  0.084  0.111  0.135  0.169  0.199  0.227  0.247  0.265  0.269  0.188   25
+26 -1.000 -0.204 -0.028 -0.005  0.021  0.048  0.075  0.115  0.142  0.168  0.180  0.191  0.190  0.114   26
+27 -1.000 -0.264 -0.091 -0.065 -0.040 -0.010  0.025  0.062  0.087  0.115  0.120  0.122  0.115  0.044   27
+28 -1.000 -0.309 -0.134 -0.110 -0.082 -0.046 -0.011  0.025  0.049  0.075  0.080  0.074  0.065 -0.006   28
+29 -1.000 -0.352 -0.169 -0.139 -0.106 -0.071 -0.037 -0.000  0.024  0.050  0.062  0.051  0.032 -0.039   29
+2T -1.000 -0.377 -0.183 -0.144 -0.106 -0.069 -0.033  0.006  0.034  0.064  0.079  0.068  0.040 -0.024   2T
+2J -1.000 -0.333 -0.121 -0.084 -0.052 -0.016  0.020  0.056  0.081  0.110  0.118  0.101  0.070  0.006   2J
+2Q -1.000 -0.309 -0.117 -0.085 -0.050 -0.015  0.018  0.055  0.080  0.106  0.111  0.091  0.062 -0.007   2Q
+2K -1.000 -0.354 -0.176 -0.145 -0.112 -0.078 -0.045 -0.011  0.012  0.035  0.045  0.025 -0.006 -0.028   2K
+33 -1.000 -0.046  0.164  0.173  0.180  0.203  0.225  0.252  0.271  0.296  0.329  0.351  0.353  0.266   33
+34 -1.000 -0.140  0.048  0.070  0.088  0.113  0.138  0.172  0.198  0.227  0.252  0.268  0.270  0.189   34
+35 -1.000 -0.197 -0.019  0.003  0.024  0.051  0.077  0.116  0.145  0.175  0.186  0.193  0.192  0.116   35
+36 -1.000 -0.258 -0.081 -0.058 -0.037 -0.008  0.024  0.064  0.092  0.119  0.125  0.124  0.116  0.043   36
+37 -1.000 -0.308 -0.130 -0.106 -0.081 -0.047 -0.011  0.028  0.053  0.079  0.083  0.072  0.061 -0.011   37
+38 -1.000 -0.350 -0.165 -0.139 -0.107 -0.068 -0.031  0.006  0.029  0.056  0.064  0.050  0.031 -0.040   38
+39 -1.000 -0.376 -0.181 -0.144 -0.106 -0.066 -0.028  0.011  0.037  0.068  0.085  0.072  0.042 -0.021   39
+3T -1.000 -0.330 -0.118 -0.080 -0.044 -0.010  0.025  0.062  0.088  0.119  0.127  0.109  0.075  0.009   3T
+3J -1.000 -0.307 -0.113 -0.077 -0.046 -0.010  0.024  0.061  0.086  0.114  0.119  0.095  0.065 -0.005   3J
+3Q -1.000 -0.400 -0.214 -0.181 -0.149 -0.114 -0.083 -0.047 -0.024  0.001  0.006 -0.016 -0.047 -0.066   3Q
+3K -1.000 -0.412 -0.249 -0.220 -0.190 -0.159 -0.128 -0.097 -0.077 -0.054 -0.045 -0.069 -0.055 -0.113   3K
+44 -1.000 -0.171  0.023  0.042  0.056  0.071  0.096  0.131  0.155  0.186  0.195  0.201  0.198  0.120   44
+45 -1.000 -0.261 -0.082 -0.057 -0.036 -0.010  0.022  0.062  0.092  0.124  0.124  0.121  0.115  0.041   45
+46 -1.000 -0.309 -0.126 -0.103 -0.078 -0.048 -0.012  0.029  0.058  0.084  0.085  0.072  0.060 -0.012   46
+47 -1.000 -0.348 -0.160 -0.131 -0.101 -0.064 -0.024  0.017  0.040  0.068  0.069  0.050  0.030 -0.042   47
+48 -1.000 -0.377 -0.179 -0.142 -0.106 -0.062 -0.019  0.020  0.047  0.078  0.087  0.071  0.042 -0.021   48
+49 -1.000 -0.331 -0.118 -0.079 -0.042 -0.005  0.032  0.068  0.095  0.125  0.133  0.113  0.080  0.013   49
+4T -1.000 -0.308 -0.113 -0.073 -0.039 -0.005  0.030  0.067  0.095  0.123  0.123  0.102  0.071 -0.002   4T
+4J -1.000 -0.386 -0.197 -0.162 -0.132 -0.100 -0.068 -0.033 -0.011  0.013  0.016 -0.011 -0.043 -0.064   4J
+4Q -1.000 -0.421 -0.247 -0.217 -0.186 -0.156 -0.126 -0.094 -0.073 -0.050 -0.046 -0.070 -0.055 -0.113   4Q
+4K -1.000 -0.467 -0.316 -0.289 -0.263 -0.235 -0.208 -0.180 -0.158 -0.137 -0.135 -0.111 -0.136 -0.189   4K
+55 -1.000 -0.285 -0.098 -0.077 -0.059 -0.029 -0.001  0.040  0.070  0.098  0.093  0.076  0.066 -0.009   55
+56 -1.000 -0.346 -0.157 -0.129 -0.100 -0.062 -0.023  0.020  0.048  0.074  0.074  0.052  0.030 -0.040   56
+57 -1.000 -0.372 -0.174 -0.137 -0.101 -0.058 -0.013  0.031  0.058  0.087  0.092  0.071  0.042 -0.021   57
+58 -1.000 -0.329 -0.117 -0.081 -0.043  0.001  0.040  0.078  0.105  0.132  0.134  0.112  0.081  0.014   58
+59 -1.000 -0.305 -0.112 -0.073 -0.036  0.003  0.037  0.075  0.102  0.127  0.129  0.108  0.077  0.003   59
+5T -1.000 -0.383 -0.197 -0.162 -0.129 -0.097 -0.065 -0.029 -0.005  0.017  0.018 -0.007 -0.039 -0.062   5T
+5J -1.000 -0.460 -0.289 -0.256 -0.227 -0.195 -0.164 -0.130 -0.110 -0.088 -0.086 -0.112 -0.099 -0.153   5J
+5Q -1.000 -0.474 -0.315 -0.289 -0.262 -0.233 -0.206 -0.175 -0.154 -0.134 -0.138 -0.115 -0.140 -0.192   5Q
+5K -1.000 -0.517 -0.378 -0.355 -0.332 -0.307 -0.283 -0.253 -0.222 -0.186 -0.174 -0.193 -0.216 -0.264   5K
+66 -1.000 -0.357 -0.154 -0.124 -0.089 -0.047 -0.004  0.040  0.068  0.092  0.095  0.075  0.044 -0.020   66
+67 -1.000 -0.325 -0.111 -0.077 -0.041  0.002  0.044  0.084  0.108  0.131  0.135  0.114  0.080  0.012   67
+68 -1.000 -0.304 -0.113 -0.076 -0.038  0.006  0.045  0.083  0.106  0.127  0.129  0.110  0.079  0.005   68
+69 -1.000 -0.381 -0.201 -0.165 -0.130 -0.094 -0.060 -0.025 -0.004  0.014  0.016 -0.004 -0.036 -0.060   69
+6T -1.000 -0.446 -0.278 -0.245 -0.214 -0.184 -0.152 -0.120 -0.102 -0.084 -0.084 -0.110 -0.097 -0.155   6T
+6J -1.000 -0.481 -0.320 -0.291 -0.265 -0.235 -0.205 -0.175 -0.157 -0.139 -0.144 -0.121 -0.149 -0.200   6J
+6Q -1.000 -0.528 -0.383 -0.360 -0.335 -0.309 -0.284 -0.250 -0.220 -0.190 -0.185 -0.203 -0.227 -0.275   6Q
+6K -1.000 -0.567 -0.441 -0.420 -0.392 -0.346 -0.300 -0.255 -0.225 -0.193 -0.232 -0.275 -0.297 -0.341   6K
+77 -1.000 -0.290 -0.096 -0.061 -0.027  0.015  0.056  0.093  0.110  0.130  0.131  0.112  0.080  0.004   77
+78 -1.000 -0.380 -0.201 -0.166 -0.130 -0.089 -0.051 -0.017 -0.001  0.017  0.017 -0.002 -0.034 -0.057   78
+79 -1.000 -0.443 -0.282 -0.249 -0.216 -0.182 -0.150 -0.119 -0.106 -0.089 -0.089 -0.114 -0.099 -0.157   79
+7T -1.000 -0.521 -0.367 -0.336 -0.307 -0.276 -0.247 -0.219 -0.204 -0.186 -0.193 -0.171 -0.198 -0.248   7T
+7J -1.000 -0.532 -0.387 -0.361 -0.338 -0.311 -0.285 -0.248 -0.227 -0.194 -0.191 -0.213 -0.238 -0.284   7J
+7Q -1.000 -0.577 -0.444 -0.420 -0.386 -0.340 -0.297 -0.254 -0.230 -0.197 -0.259 -0.285 -0.308 -0.349   7Q
+7K -1.000 -0.628 -0.461 -0.427 -0.394 -0.347 -0.303 -0.259 -0.233 -0.201 -0.240 -0.334 -0.364 -0.407   7K
+88 -1.000 -0.432 -0.274 -0.244 -0.214 -0.176 -0.143 -0.117 -0.105 -0.089 -0.092 -0.114 -0.097 -0.156   88
+89 -1.000 -0.361 -0.198 -0.171 -0.141 -0.108 -0.082 -0.059 -0.045 -0.030 -0.074 -0.014 -0.039 -0.104   89
+8T -1.000 -0.394 -0.234 -0.208 -0.181 -0.155 -0.130 -0.107 -0.092 -0.120 -0.038 -0.059 -0.085 -0.146   8T
+8J -1.000 -0.598 -0.452 -0.414 -0.381 -0.337 -0.295 -0.258 -0.235 -0.199 -0.259 -0.290 -0.315 -0.355   8J
+8Q -1.000 -0.596 -0.456 -0.423 -0.387 -0.342 -0.301 -0.263 -0.237 -0.204 -0.264 -0.311 -0.333 -0.372   8Q
+8K -1.000 -0.626 -0.464 -0.430 -0.394 -0.349 -0.307 -0.267 -0.242 -0.208 -0.244 -0.340 -0.367 -0.412   8K
+99 -1.000 -0.517 -0.367 -0.338 -0.310 -0.281 -0.260 -0.237 -0.223 -0.199 -0.162 -0.180 -0.207 -0.258   99
+9T -1.000 -0.418 -0.265 -0.237 -0.213 -0.192 -0.171 -0.149 -0.181 -0.078 -0.075 -0.092 -0.118 -0.177   9T
+9J -1.000 -0.600 -0.455 -0.416 -0.384 -0.341 -0.305 -0.266 -0.240 -0.205 -0.264 -0.313 -0.337 -0.376   9J
+9Q -1.000 -0.631 -0.460 -0.425 -0.390 -0.347 -0.311 -0.270 -0.244 -0.210 -0.268 -0.339 -0.368 -0.415   9Q
+9K -1.000 -0.657 -0.467 -0.431 -0.397 -0.354 -0.315 -0.275 -0.249 -0.214 -0.249 -0.343 -0.371 -0.418   9K
+TT -1.000 -0.600 -0.453 -0.416 -0.381 -0.343 -0.306 -0.269 -0.239 -0.203 -0.264 -0.314 -0.338 -0.378   TT
+TJ -1.000 -0.635 -0.457 -0.420 -0.389 -0.350 -0.312 -0.272 -0.245 -0.208 -0.269 -0.363 -0.370 -0.391   TJ
+TQ -1.000 -0.659 -0.461 -0.428 -0.395 -0.356 -0.317 -0.278 -0.249 -0.213 -0.274 -0.344 -0.374 -0.395   TQ
+TK -1.000 -0.617 -0.382 -0.343 -0.305 -0.263 -0.219 -0.177 -0.144 -0.108 -0.090 -0.184 -0.220 -0.272   TK
+JJ -1.000 -0.649 -0.461 -0.424 -0.397 -0.357 -0.317 -0.276 -0.251 -0.214 -0.274 -0.369 -0.350 -0.395   JJ
+JQ -1.000 -0.607 -0.379 -0.342 -0.306 -0.264 -0.220 -0.177 -0.145 -0.109 -0.097 -0.205 -0.215 -0.252   JQ
+JK -1.000 -0.527 -0.224 -0.174 -0.127 -0.079 -0.027  0.023  0.061  0.102  0.170  0.121  0.058  0.021   JK
+QQ -1.000 -0.530 -0.223 -0.177 -0.126 -0.079 -0.028  0.022  0.062  0.101  0.179  0.090  0.058  0.041   QQ
+QK -1.000 -0.394 -0.088 -0.026  0.034  0.093  0.148  0.207  0.255  0.298  0.362  0.414  0.331  0.313   QK
+KK -1.000 -0.132  0.041  0.116  0.188  0.259  0.320  0.388  0.444  0.494  0.549  0.656  0.623  0.566   KK
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+ 
+expected return of the game is -0.013566 or  -1.3566%
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays data about
+the probability of the occurrence of each combination
+of card ranks that is possible for a set of cards
+consisting of the two cards in the player's initial hand
+and the exposed card in the dealer's initial hand.
+
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+00  0.000  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005   00
+0A  0.005  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   0A
+02  0.005  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   02
+03  0.005  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   03
+04  0.005  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   04
+05  0.005  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   05
+06  0.005  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022   06
+07  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022   07
+08  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022   08
+09  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022   09
+0T  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022   0T
+0J  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022   0J
+0Q  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022   0Q
+0K  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016   0K
+AA  0.016  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   AA
+A2  0.022  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   A2
+A3  0.022  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   A3
+A4  0.022  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   A4
+A5  0.022  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   A5
+A6  0.022  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   A6
+A7  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   A7
+A8  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   A8
+A9  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   A9
+AT  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   AT
+AJ  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   AJ
+AQ  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   AQ
+AK  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   AK
+22  0.016  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   22
+23  0.022  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   23
+24  0.022  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   24
+25  0.022  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   25
+26  0.022  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   26
+27  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   27
+28  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   28
+29  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   29
+2T  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   2T
+2J  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   2J
+2Q  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   2Q
+2K  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   2K
+33  0.016  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   33
+34  0.022  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   34
+35  0.022  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   35
+36  0.022  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   36
+37  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   37
+38  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   38
+39  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   39
+3T  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   3T
+3J  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   3J
+3Q  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   3Q
+3K  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   3K
+44  0.016  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   44
+45  0.022  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   45
+46  0.022  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   46
+47  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   47
+48  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   48
+49  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   49
+4T  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   4T
+4J  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   4J
+4Q  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   4Q
+4K  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   4K
+55  0.016  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   55
+56  0.022  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   56
+57  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   57
+58  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   58
+59  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   59
+5T  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   5T
+5J  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   5J
+5Q  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   5Q
+5K  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   5K
+66  0.016  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032   66
+67  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043   67
+68  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043   68
+69  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043   69
+6T  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043   6T
+6J  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043   6J
+6Q  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043   6Q
+6K  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032   6K
+77  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032   77
+78  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043   78
+79  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043   79
+7T  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043   7T
+7J  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043   7J
+7Q  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043   7Q
+7K  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032   7K
+88  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032   88
+89  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043   89
+8T  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043   8T
+8J  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043   8J
+8Q  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043   8Q
+8K  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032   8K
+99  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032   99
+9T  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043   9T
+9J  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043   9J
+9Q  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043   9Q
+9K  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032   9K
+TT  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032   TT
+TJ  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043   TJ
+TQ  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043   TQ
+TK  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032   TK
+JJ  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032   JJ
+JQ  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043   JQ
+JK  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032   JK
+QQ  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032   QQ
+QK  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032   QK
+KK  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016   KK
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+ 
+probability of occurrence total is 100.0000%
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the set of combination-dependent-playing-strategy tables
+for use in games wherein the rank of the first card dealt to
+the player's initial hand is equal to or less than the rank
+of the second card dealt to the player's initial hand
+ 
+
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategy for the play of the player's hand.
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+00  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    00
+A0  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    A0
+20  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    20
+30  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    30
+40  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    40
+50  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    50
+60  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    60
+70  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    70
+80  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    80
+90  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    90
+T0  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    T0
+J0  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    J0
+Q0  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    Q0
+K0  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    K0
+AA  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      AA
+2A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      2A
+3A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      3A
+4A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      4A
+5A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      5A
+6A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      6A
+7A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      7A
+8A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      8A
+9A  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      9A
+TA  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Stand  Stand  Stand  Stand  Hit    Hit      TA
+JA  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JA
+QA  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QA
+KA  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KA
+22  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      22
+32  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      32
+42  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      42
+52  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      52
+62  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      62
+72  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      72
+82  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      82
+92  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      92
+T2  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      T2
+J2  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      J2
+Q2  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      Q2
+K2  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      K2
+33  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      33
+43  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      43
+53  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      53
+63  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      63
+73  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      73
+83  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      83
+93  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      93
+T3  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      T3
+J3  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      J3
+Q3  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      Q3
+K3  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      K3
+44  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      44
+54  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      54
+64  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      64
+74  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      74
+84  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      84
+94  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      94
+T4  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      T4
+J4  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      J4
+Q4  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      Q4
+K4  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      K4
+55  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      55
+65  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      65
+75  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      75
+85  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      85
+95  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      95
+T5  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      T5
+J5  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      J5
+Q5  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      Q5
+K5  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Stand  Stand  Stand  Hit    Hit    Hit    Hit      K5
+66  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      66
+76  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      76
+86  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      86
+96  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      96
+T6  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      T6
+J6  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      J6
+Q6  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Stand  Stand  Stand  Hit    Hit    Hit    Hit      Q6
+K6  Stand  Hit    Hit    Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      K6
+77  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      77
+87  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      87
+97  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      97
+T7  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      T7
+J7  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Stand  Stand  Stand  Hit    Hit    Hit    Hit      J7
+Q7  Stand  Hit    Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      Q7
+K7  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit      K7
+88  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      88
+98  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      98
+T8  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      T8
+J8  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      J8
+Q8  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      Q8
+K8  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    K8
+99  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Stand  Hit    Hit    Hit    Hit      99
+T9  Stand  Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit      T9
+J9  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      J9
+Q9  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    Q9
+K9  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    K9
+TT  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Hit    Hit    Hit      TT
+JT  Stand  Hit    Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JT
+QT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QT
+KT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KT
+JJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JJ
+QJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QJ
+KJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KJ
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QQ
+KQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KQ
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays data about
+the expected values of the game wager calculated for
+the best strategies for the play of the player's hands.
+
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+00  0.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000  3.000   00
+A0  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   A0
+20  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   20
+30  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   30
+40  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   40
+50  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   50
+60  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   60
+70  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   70
+80  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   80
+90  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   90
+T0  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   T0
+J0  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   J0
+Q0  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   Q0
+K0  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   K0
+AA -1.000  0.362  0.577  0.582  0.589  0.604  0.616  0.637  0.650  0.664  0.682  0.704  0.701  0.666   AA
+2A -1.000  0.208  0.421  0.436  0.457  0.484  0.506  0.537  0.556  0.576  0.596  0.621  0.645  0.568   2A
+3A -1.000  0.154  0.358  0.380  0.396  0.422  0.444  0.473  0.491  0.507  0.523  0.571  0.575  0.504   3A
+4A -1.000  0.092  0.291  0.313  0.332  0.354  0.375  0.402  0.417  0.428  0.470  0.501  0.503  0.433   4A
+5A -1.000  0.031  0.219  0.241  0.261  0.282  0.301  0.327  0.338  0.375  0.400  0.428  0.428  0.362   5A
+6A -1.000 -0.036  0.143  0.160  0.180  0.203  0.223  0.242  0.279  0.300  0.322  0.341  0.339  0.277   6A
+7A -1.000 -0.102  0.071  0.095  0.116  0.140  0.153  0.201  0.222  0.245  0.258  0.272  0.267  0.206   7A
+8A -1.000 -0.164  0.008  0.031  0.053  0.067  0.112  0.144  0.165  0.189  0.196  0.203  0.195  0.137   8A
+9A -1.000 -0.219 -0.044 -0.019 -0.008  0.040  0.068  0.100  0.121  0.144  0.153  0.154  0.140  0.080   9A
+TA -1.000 -0.263 -0.078 -0.065 -0.019  0.011  0.042  0.075  0.107  0.142  0.216  0.160  0.110  0.049   TA
+JA -1.000 -0.289 -0.014  0.047  0.101  0.156  0.208  0.263  0.302  0.340  0.405  0.459  0.367  0.310   JA
+QA -1.000 -0.104  0.123  0.193  0.261  0.327  0.382  0.445  0.493  0.535  0.592  0.673  0.657  0.581   QA
+KA  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000  2.000   KA
+22 -1.000  0.059  0.278  0.277  0.300  0.328  0.351  0.383  0.403  0.424  0.447  0.485  0.496  0.398   22
+32 -1.000 -0.033  0.166  0.186  0.209  0.239  0.266  0.300  0.322  0.344  0.379  0.412  0.420  0.328   32
+42 -1.000 -0.086  0.108  0.131  0.153  0.179  0.204  0.236  0.258  0.288  0.316  0.343  0.349  0.263   42
+52 -1.000 -0.143  0.038  0.060  0.084  0.111  0.135  0.169  0.199  0.227  0.247  0.265  0.269  0.188   52
+62 -1.000 -0.204 -0.028 -0.005  0.021  0.048  0.075  0.115  0.142  0.168  0.180  0.191  0.190  0.114   62
+72 -1.000 -0.264 -0.091 -0.065 -0.040 -0.010  0.025  0.062  0.087  0.115  0.120  0.122  0.115  0.044   72
+82 -1.000 -0.309 -0.134 -0.110 -0.082 -0.046 -0.011  0.025  0.049  0.075  0.080  0.074  0.065 -0.006   82
+92 -1.000 -0.352 -0.169 -0.139 -0.106 -0.071 -0.037 -0.000  0.024  0.050  0.062  0.051  0.032 -0.039   92
+T2 -1.000 -0.377 -0.183 -0.144 -0.106 -0.069 -0.033  0.006  0.034  0.064  0.079  0.068  0.040 -0.024   T2
+J2 -1.000 -0.333 -0.121 -0.084 -0.052 -0.016  0.020  0.056  0.081  0.110  0.118  0.101  0.070  0.006   J2
+Q2 -1.000 -0.309 -0.117 -0.085 -0.050 -0.015  0.018  0.055  0.080  0.106  0.111  0.091  0.062 -0.007   Q2
+K2 -1.000 -0.354 -0.176 -0.145 -0.112 -0.078 -0.045 -0.011  0.012  0.035  0.045  0.025 -0.006 -0.028   K2
+33 -1.000 -0.046  0.164  0.173  0.180  0.203  0.225  0.252  0.271  0.296  0.329  0.351  0.353  0.266   33
+43 -1.000 -0.140  0.048  0.070  0.088  0.113  0.138  0.172  0.198  0.227  0.252  0.268  0.270  0.189   43
+53 -1.000 -0.197 -0.019  0.003  0.024  0.051  0.077  0.116  0.145  0.175  0.186  0.193  0.192  0.116   53
+63 -1.000 -0.258 -0.081 -0.058 -0.037 -0.008  0.024  0.064  0.092  0.119  0.125  0.124  0.116  0.043   63
+73 -1.000 -0.308 -0.130 -0.106 -0.081 -0.047 -0.011  0.028  0.053  0.079  0.083  0.072  0.061 -0.011   73
+83 -1.000 -0.350 -0.165 -0.139 -0.107 -0.068 -0.031  0.006  0.029  0.056  0.064  0.050  0.031 -0.040   83
+93 -1.000 -0.376 -0.181 -0.144 -0.106 -0.066 -0.028  0.011  0.037  0.068  0.085  0.072  0.042 -0.021   93
+T3 -1.000 -0.330 -0.118 -0.080 -0.044 -0.010  0.025  0.062  0.088  0.119  0.127  0.109  0.075  0.009   T3
+J3 -1.000 -0.307 -0.113 -0.077 -0.046 -0.010  0.024  0.061  0.086  0.114  0.119  0.095  0.065 -0.005   J3
+Q3 -1.000 -0.400 -0.214 -0.181 -0.149 -0.114 -0.083 -0.047 -0.024  0.001  0.006 -0.016 -0.047 -0.066   Q3
+K3 -1.000 -0.412 -0.249 -0.220 -0.190 -0.159 -0.128 -0.097 -0.077 -0.054 -0.045 -0.069 -0.055 -0.113   K3
+44 -1.000 -0.171  0.023  0.042  0.056  0.071  0.096  0.131  0.155  0.186  0.195  0.201  0.198  0.120   44
+54 -1.000 -0.261 -0.082 -0.057 -0.036 -0.010  0.022  0.062  0.092  0.124  0.124  0.121  0.115  0.041   54
+64 -1.000 -0.309 -0.126 -0.103 -0.078 -0.048 -0.012  0.029  0.058  0.084  0.085  0.072  0.060 -0.012   64
+74 -1.000 -0.348 -0.160 -0.131 -0.101 -0.064 -0.024  0.017  0.040  0.068  0.069  0.050  0.030 -0.042   74
+84 -1.000 -0.377 -0.179 -0.142 -0.106 -0.062 -0.019  0.020  0.047  0.078  0.087  0.071  0.042 -0.021   84
+94 -1.000 -0.331 -0.118 -0.079 -0.042 -0.005  0.032  0.068  0.095  0.125  0.133  0.113  0.080  0.013   94
+T4 -1.000 -0.308 -0.113 -0.073 -0.039 -0.005  0.030  0.067  0.095  0.123  0.123  0.102  0.071 -0.002   T4
+J4 -1.000 -0.386 -0.197 -0.162 -0.132 -0.100 -0.068 -0.033 -0.011  0.013  0.016 -0.011 -0.043 -0.064   J4
+Q4 -1.000 -0.421 -0.247 -0.217 -0.186 -0.156 -0.126 -0.094 -0.073 -0.050 -0.046 -0.070 -0.055 -0.113   Q4
+K4 -1.000 -0.467 -0.316 -0.289 -0.263 -0.235 -0.208 -0.180 -0.158 -0.137 -0.135 -0.111 -0.136 -0.189   K4
+55 -1.000 -0.285 -0.098 -0.077 -0.059 -0.029 -0.001  0.040  0.070  0.098  0.093  0.076  0.066 -0.009   55
+65 -1.000 -0.346 -0.157 -0.129 -0.100 -0.062 -0.023  0.020  0.048  0.074  0.074  0.052  0.030 -0.040   65
+75 -1.000 -0.372 -0.174 -0.137 -0.101 -0.058 -0.013  0.031  0.058  0.087  0.092  0.071  0.042 -0.021   75
+85 -1.000 -0.329 -0.117 -0.081 -0.043  0.001  0.040  0.078  0.105  0.132  0.134  0.112  0.081  0.014   85
+95 -1.000 -0.305 -0.112 -0.073 -0.036  0.003  0.037  0.075  0.102  0.127  0.129  0.108  0.077  0.003   95
+T5 -1.000 -0.383 -0.197 -0.162 -0.129 -0.097 -0.065 -0.029 -0.005  0.017  0.018 -0.007 -0.039 -0.062   T5
+J5 -1.000 -0.460 -0.289 -0.256 -0.227 -0.195 -0.164 -0.130 -0.110 -0.088 -0.086 -0.112 -0.099 -0.153   J5
+Q5 -1.000 -0.474 -0.315 -0.289 -0.262 -0.233 -0.206 -0.175 -0.154 -0.134 -0.138 -0.115 -0.140 -0.192   Q5
+K5 -1.000 -0.517 -0.378 -0.355 -0.332 -0.307 -0.283 -0.253 -0.222 -0.186 -0.174 -0.193 -0.216 -0.264   K5
+66 -1.000 -0.357 -0.154 -0.124 -0.089 -0.047 -0.004  0.040  0.068  0.092  0.095  0.075  0.044 -0.020   66
+76 -1.000 -0.325 -0.111 -0.077 -0.041  0.002  0.044  0.084  0.108  0.131  0.135  0.114  0.080  0.012   76
+86 -1.000 -0.304 -0.113 -0.076 -0.038  0.006  0.045  0.083  0.106  0.127  0.129  0.110  0.079  0.005   86
+96 -1.000 -0.381 -0.201 -0.165 -0.130 -0.094 -0.060 -0.025 -0.004  0.014  0.016 -0.004 -0.036 -0.060   96
+T6 -1.000 -0.446 -0.278 -0.245 -0.214 -0.184 -0.152 -0.120 -0.102 -0.084 -0.084 -0.110 -0.097 -0.155   T6
+J6 -1.000 -0.481 -0.320 -0.291 -0.265 -0.235 -0.205 -0.175 -0.157 -0.139 -0.144 -0.121 -0.149 -0.200   J6
+Q6 -1.000 -0.528 -0.383 -0.360 -0.335 -0.309 -0.284 -0.250 -0.220 -0.190 -0.185 -0.203 -0.227 -0.275   Q6
+K6 -1.000 -0.567 -0.441 -0.420 -0.392 -0.346 -0.300 -0.255 -0.225 -0.193 -0.232 -0.275 -0.297 -0.341   K6
+77 -1.000 -0.290 -0.096 -0.061 -0.027  0.015  0.056  0.093  0.110  0.130  0.131  0.112  0.080  0.004   77
+87 -1.000 -0.380 -0.201 -0.166 -0.130 -0.089 -0.051 -0.017 -0.001  0.017  0.017 -0.002 -0.034 -0.057   87
+97 -1.000 -0.443 -0.282 -0.249 -0.216 -0.182 -0.150 -0.119 -0.106 -0.089 -0.089 -0.114 -0.099 -0.157   97
+T7 -1.000 -0.521 -0.367 -0.336 -0.307 -0.276 -0.247 -0.219 -0.204 -0.186 -0.193 -0.171 -0.198 -0.248   T7
+J7 -1.000 -0.532 -0.387 -0.361 -0.338 -0.311 -0.285 -0.248 -0.227 -0.194 -0.191 -0.213 -0.238 -0.284   J7
+Q7 -1.000 -0.577 -0.444 -0.420 -0.386 -0.340 -0.297 -0.254 -0.230 -0.197 -0.259 -0.285 -0.308 -0.349   Q7
+K7 -1.000 -0.628 -0.461 -0.427 -0.394 -0.347 -0.303 -0.259 -0.233 -0.201 -0.240 -0.334 -0.364 -0.407   K7
+88 -1.000 -0.432 -0.274 -0.244 -0.214 -0.176 -0.143 -0.117 -0.105 -0.089 -0.092 -0.114 -0.097 -0.156   88
+98 -1.000 -0.361 -0.198 -0.171 -0.141 -0.108 -0.082 -0.059 -0.045 -0.030 -0.074 -0.014 -0.039 -0.104   98
+T8 -1.000 -0.394 -0.234 -0.208 -0.181 -0.155 -0.130 -0.107 -0.092 -0.120 -0.038 -0.059 -0.085 -0.146   T8
+J8 -1.000 -0.598 -0.452 -0.414 -0.381 -0.337 -0.295 -0.258 -0.235 -0.199 -0.259 -0.290 -0.315 -0.355   J8
+Q8 -1.000 -0.596 -0.456 -0.423 -0.387 -0.342 -0.301 -0.263 -0.237 -0.204 -0.264 -0.311 -0.333 -0.372   Q8
+K8 -1.000 -0.626 -0.464 -0.430 -0.394 -0.349 -0.307 -0.267 -0.242 -0.208 -0.244 -0.340 -0.367 -0.412   K8
+99 -1.000 -0.517 -0.367 -0.338 -0.310 -0.281 -0.260 -0.237 -0.223 -0.199 -0.162 -0.180 -0.207 -0.258   99
+T9 -1.000 -0.418 -0.265 -0.237 -0.213 -0.192 -0.171 -0.149 -0.181 -0.078 -0.075 -0.092 -0.118 -0.177   T9
+J9 -1.000 -0.600 -0.455 -0.416 -0.384 -0.341 -0.305 -0.266 -0.240 -0.205 -0.264 -0.313 -0.337 -0.376   J9
+Q9 -1.000 -0.631 -0.460 -0.425 -0.390 -0.347 -0.311 -0.270 -0.244 -0.210 -0.268 -0.339 -0.368 -0.415   Q9
+K9 -1.000 -0.657 -0.467 -0.431 -0.397 -0.354 -0.315 -0.275 -0.249 -0.214 -0.249 -0.343 -0.371 -0.418   K9
+TT -1.000 -0.600 -0.453 -0.416 -0.381 -0.343 -0.306 -0.269 -0.239 -0.203 -0.264 -0.314 -0.338 -0.378   TT
+JT -1.000 -0.635 -0.457 -0.420 -0.389 -0.350 -0.312 -0.272 -0.245 -0.208 -0.269 -0.363 -0.370 -0.391   JT
+QT -1.000 -0.659 -0.461 -0.428 -0.395 -0.356 -0.317 -0.278 -0.249 -0.213 -0.274 -0.344 -0.374 -0.395   QT
+KT -1.000 -0.617 -0.382 -0.343 -0.305 -0.263 -0.219 -0.177 -0.144 -0.108 -0.090 -0.184 -0.220 -0.272   KT
+JJ -1.000 -0.649 -0.461 -0.424 -0.397 -0.357 -0.317 -0.276 -0.251 -0.214 -0.274 -0.369 -0.350 -0.395   JJ
+QJ -1.000 -0.607 -0.379 -0.342 -0.306 -0.264 -0.220 -0.177 -0.145 -0.109 -0.097 -0.205 -0.215 -0.252   QJ
+KJ -1.000 -0.527 -0.224 -0.174 -0.127 -0.079 -0.027  0.023  0.061  0.102  0.170  0.121  0.058  0.021   KJ
+QQ -1.000 -0.530 -0.223 -0.177 -0.126 -0.079 -0.028  0.022  0.062  0.101  0.179  0.090  0.058  0.041   QQ
+KQ -1.000 -0.394 -0.088 -0.026  0.034  0.093  0.148  0.207  0.255  0.298  0.362  0.414  0.331  0.313   KQ
+KK -1.000 -0.132  0.041  0.116  0.188  0.259  0.320  0.388  0.444  0.494  0.549  0.656  0.623  0.566   KK
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+ 
+expected return of the game is -0.013566 or  -1.3566%
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays data about
+the probability of the occurrence of each combination
+of card ranks that is possible for a set of cards
+consisting of the two cards in the player's initial hand
+and the exposed card in the dealer's initial hand.
+
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+00  0.000  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005  0.005   00
+A0  0.005  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   A0
+20  0.005  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   20
+30  0.005  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   30
+40  0.005  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   40
+50  0.005  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022   50
+60  0.005  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022  0.022   60
+70  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022  0.022   70
+80  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022  0.022   80
+90  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022  0.022   90
+T0  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022  0.022   T0
+J0  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022  0.022   J0
+Q0  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016  0.022   Q0
+K0  0.005  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.022  0.016   K0
+AA  0.016  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   AA
+2A  0.022  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   2A
+3A  0.022  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   3A
+4A  0.022  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   4A
+5A  0.022  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   5A
+6A  0.022  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   6A
+7A  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   7A
+8A  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   8A
+9A  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   9A
+TA  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   TA
+JA  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   JA
+QA  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   QA
+KA  0.022  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   KA
+22  0.016  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   22
+32  0.022  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   32
+42  0.022  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   42
+52  0.022  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   52
+62  0.022  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   62
+72  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   72
+82  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   82
+92  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   92
+T2  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   T2
+J2  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   J2
+Q2  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   Q2
+K2  0.022  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   K2
+33  0.016  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   33
+43  0.022  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   43
+53  0.022  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   53
+63  0.022  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   63
+73  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   73
+83  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   83
+93  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   93
+T3  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   T3
+J3  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   J3
+Q3  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   Q3
+K3  0.022  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   K3
+44  0.016  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   44
+54  0.022  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043   54
+64  0.022  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   64
+74  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   74
+84  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   84
+94  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   94
+T4  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   T4
+J4  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   J4
+Q4  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   Q4
+K4  0.022  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   K4
+55  0.016  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032   55
+65  0.022  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043   65
+75  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043   75
+85  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043   85
+95  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043   95
+T5  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043   T5
+J5  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043   J5
+Q5  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043   Q5
+K5  0.022  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032   K5
+66  0.016  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032   66
+76  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043  0.043   76
+86  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043  0.043   86
+96  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043  0.043   96
+T6  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043  0.043   T6
+J6  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043  0.043   J6
+Q6  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032  0.043   Q6
+K6  0.022  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.043  0.032   K6
+77  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032  0.032   77
+87  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043  0.043   87
+97  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043  0.043   97
+T7  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043  0.043   T7
+J7  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043  0.043   J7
+Q7  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032  0.043   Q7
+K7  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.043  0.032   K7
+88  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032  0.032   88
+98  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043  0.043   98
+T8  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043  0.043   T8
+J8  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043  0.043   J8
+Q8  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032  0.043   Q8
+K8  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.043  0.032   K8
+99  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032  0.032   99
+T9  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043  0.043   T9
+J9  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043  0.043   J9
+Q9  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032  0.043   Q9
+K9  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.043  0.032   K9
+TT  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032  0.032   TT
+JT  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043  0.043   JT
+QT  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032  0.043   QT
+KT  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.043  0.032   KT
+JJ  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032  0.032   JJ
+QJ  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032  0.043   QJ
+KJ  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.043  0.032   KJ
+QQ  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016  0.032   QQ
+KQ  0.022  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.043  0.032  0.032   KQ
+KK  0.016  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.032  0.016   KK
+ 
+     0      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+ 
+probability of occurrence total is 100.0000%
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the summary of the best strategies for the play of the player's hand
+ 
+
+ 
+ 
+The following tables display the best overall strategy for the play of the
+player's hand given the number of cards in the player's hand, given the type
+of hand the player has, and given the rank of the exposed card in the
+dealer's initial hand. To use the tables, do the following. Find the table
+that corresponds to the number of cards in the player's hand, On that table,
+find the cell located at the intersection of the row that corresponds to the
+type of hand that the player has (soft or hard) and the column that corresponds
+to the rank of the exposed card in the dealer's initial hand. If the number given
+in the cell is equal to or less than the numerical value of the player's hand
+then stand, else hit. 
+ 
+ 
+Strategy Table For Two Card Hands
+ 
+      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+hard 22     20     19     19     19     19     18     18     18     19     21     21     21       
+soft 26     25     25     25     25     25     25     24     24     24     24     25     25       
+ 
+ 
+Strategy Table For Three Card Hands
+ 
+      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+hard 22     21     20     20     20     19     19     19     19     20     21     21     21       
+soft 27     27     26     26     26     26     26     26     26     25     25     26     26       
+ 
+ 
+Strategy Table For Four Card Hands
+ 
+      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+hard 24     23     23     23     23     23     23     23     23     23     23     23     23       
+soft 27     27     27     27     27     27     27     27     27     27     27     27     27       
+ 
+ 
+exception rules
+ 
+ 
+      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+       
+6K    H      H      Hit    S      S      S      S      S      S      S      H      H      H     6K   
+7K    H      S      S      S      S      S      S      S      S      S      Stand  Stand  H     7K   
+8T    H      H      H      H      H      H      Hit    Hit    Hit    H      H      H      H     8T   
+8J    H      Stand  S      S      S      S      S      S      S      S      H      H      H     8J   
+99    H      H      H      H      H      H      Hit    Hit    S      H      H      H      H     99   
+9T    H      H      Hit    Hit    Hit    Hit    Hit    Hit    Hit    Hit    H      H      H     9T   
+0AJ   H      H      H      H      H      H      H      H      H      Hit    S      H      H     0AJ  
+0AQ   H      H      Hit    S      S      S      S      S      S      S      S      S      S     0AQ  
+06K   H      H      H      H      H      Hit    S      S      S      H      H      H      H     06K  
+07K   H      Stand  S      S      S      S      S      S      S      S      H      H      H     07K  
+08Q   H      H      Hit    S      S      S      S      S      S      Hit    H      H      H     08Q  
+08K   H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   08K  
+09T   H      H      H      H      H      Hit    Hit    Hit    Hit    H      H      H      H     09T  
+09J   H      H      Hit    S      S      S      S      S      S      Hit    H      H      H     09J  
+09Q   H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   09Q  
+09K   Hit    S      S      S      S      S      S      S      S      S      S      S      S     09K  
+0TT   H      H      Hit    S      S      S      S      S      S      Hit    H      H      H     0TT  
+0TJ   H      S      S      S      S      S      S      S      S      S      Hit    Hit    S     0TJ  
+0TQ   Hit    S      S      S      S      S      S      S      S      S      S      S      S     0TQ  
+AAT   H      H      H      H      H      H      H      H      H      Hit    S      H      H     AAT  
+AAJ   H      H      Hit    S      S      S      S      S      S      S      S      S      S     AAJ  
+A2T   H      Stand  S      S      S      S      S      S      S      S      S      S      S     A2T  
+A39   H      Stand  S      S      S      S      S      S      S      S      S      S      S     A39  
+A48   H      Stand  S      S      S      S      S      S      S      S      S      S      S     A48  
+A57   H      Stand  S      S      S      S      S      S      S      S      S      S      S     A57  
+A5K   H      H      H      H      H      Hit    S      S      S      H      H      H      H     A5K  
+A66   H      H      Hit    S      S      S      S      S      S      S      S      S      S     A66  
+A6Q   H      H      H      H      H      Hit    S      S      S      H      H      H      H     A6Q  
+A7Q   H      Stand  S      S      S      S      S      S      S      S      H      H      H     A7Q  
+A7K   H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   A7K  
+A89   H      H      H      H      H      H      H      H      Stand  H      H      H      H     A89  
+A8J   H      H      Hit    S      S      S      S      S      S      Hit    H      H      H     A8J  
+A8Q   H      S      S      S      S      S      S      S      S      S      S      S      Hit   A8Q  
+A8K   Hit    S      S      S      S      S      S      S      S      S      S      S      S     A8K  
+A99   H      H      H      H      H      Hit    Hit    Hit    Hit    H      H      H      H     A99  
+A9T   H      H      Hit    S      S      S      S      S      S      Hit    H      H      H     A9T  
+A9J   H      S      S      S      S      S      S      S      S      S      Hit    S      Hit   A9J  
+A9Q   Hit    S      S      S      S      S      S      S      S      S      S      S      S     A9Q  
+ATT   H      S      S      S      S      S      S      S      S      S      Hit    Hit    S     ATT  
+ATJ   Hit    S      S      S      S      S      S      S      S      S      S      S      S     ATJ  
+24K   H      H      H      H      H      Hit    S      S      S      H      H      H      H     24K  
+25Q   H      H      H      H      H      Hit    S      S      S      H      H      H      H     25Q  
+26Q   H      Stand  S      S      S      S      S      S      S      S      H      H      H     26Q  
+279   H      H      H      H      H      H      H      H      Stand  H      H      H      H     279  
+27J   H      Stand  S      S      S      S      S      S      S      S      H      H      H     27J  
+27Q   H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   27Q  
+27K   Hit    S      S      S      S      S      S      S      S      S      S      S      S     27K  
+289   H      H      H      H      Stand  S      S      S      S      H      H      H      H     289  
+28T   H      H      Hit    S      S      S      S      S      S      S      H      H      H     28T  
+28J   H      S      S      S      S      S      S      S      S      S      Hit    S      Hit   28J  
+28Q   Hit    S      S      S      S      S      S      S      S      S      S      S      S     28Q  
+299   H      H      Hit    S      S      S      S      S      S      Hit    H      H      H     299  
+29T   H      S      S      S      S      S      S      S      S      S      Hit    Hit    Hit   29T  
+29J   Hit    S      S      S      S      S      S      S      S      S      S      S      S     29J  
+2TT   Hit    S      S      S      S      S      S      S      S      S      S      S      S     2TT  
+33K   H      H      H      H      H      Hit    S      S      S      H      H      H      H     33K  
+34Q   H      H      H      H      H      Hit    S      S      S      H      H      H      H     34Q  
+369   H      H      H      H      H      H      H      H      Stand  H      H      H      H     369  
+36J   H      Stand  S      S      S      S      S      S      S      S      H      H      H     36J  
+36K   Hit    S      S      S      S      S      S      S      S      S      S      S      S     36K  
+378   H      H      H      H      H      H      H      H      Stand  H      H      H      H     378  
+37T   H      Stand  S      S      S      S      S      S      S      S      H      H      H     37T  
+37J   H      S      S      S      S      S      S      S      S      S      Hit    S      Hit   37J  
+388   H      H      H      H      Stand  S      S      S      S      H      H      H      H     388  
+389   H      H      Hit    S      S      S      S      S      S      S      H      H      H     389  
+38T   H      S      S      S      S      S      S      S      S      S      Hit    Hit    S     38T  
+399   H      S      S      S      S      S      S      S      S      S      Hit    Hit    Hit   399  
+39T   Hit    S      S      S      S      S      S      S      S      S      S      S      S     39T  
+44J   H      H      H      H      H      Hit    S      S      S      H      H      H      H     44J  
+459   H      H      H      H      H      H      H      H      Stand  H      H      H      H     459  
+45J   H      Stand  S      S      S      S      S      S      S      S      H      H      H     45J  
+468   H      H      H      H      H      H      H      H      Stand  H      H      H      H     468  
+46T   H      Stand  S      S      S      S      S      S      S      S      H      H      H     46T  
+477   H      H      H      H      H      H      H      H      Stand  H      H      H      H     477  
+478   H      H      H      Stand  Stand  S      S      S      S      H      H      H      H     478  
+479   H      Stand  S      S      S      S      S      S      S      S      H      H      H     479  
+47T   H      S      S      S      S      S      S      S      S      S      S      Hit    S     47T  
+488   H      H      Hit    S      S      S      S      S      S      S      H      H      H     488  
+489   H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   489  
+499   Hit    S      S      S      S      S      S      S      S      S      S      S      S     499  
+558   H      H      H      H      H      H      H      H      Stand  H      H      H      H     558  
+567   H      H      H      H      H      H      H      Stand  Stand  H      H      H      H     567  
+568   H      H      H      Stand  Stand  S      S      S      S      Stand  H      H      H     568  
+569   H      Stand  S      S      S      S      S      S      S      S      H      H      H     569  
+577   H      H      H      H      Stand  S      S      S      S      H      H      H      H     577  
+578   H      Stand  S      S      S      S      S      S      S      S      H      H      H     578  
+579   H      S      S      S      S      S      S      S      S      S      S      S      Hit   579  
+588   H      S      S      S      S      S      S      S      S      S      S      S      Hit   588  
+666   H      H      H      H      H      H      H      H      Stand  H      H      H      H     666  
+667   H      H      H      H      Stand  S      S      S      S      H      H      H      H     667  
+669   Stand  S      S      S      S      S      S      S      S      S      S      S      S     669  
+66T   Hit    S      S      S      S      S      S      S      S      S      S      S      S     66T  
+677   H      Stand  S      S      S      S      S      S      S      S      Stand  H      H     677  
+678   H      S      S      S      S      S      S      S      S      S      S      S      Hit   678  
+679   Hit    S      S      S      S      S      S      S      S      S      S      S      S     679  
+688   Hit    S      S      S      S      S      S      S      S      S      S      S      S     688  
+777   H      S      S      S      S      S      S      S      S      S      Hit    Hit    Hit   777  
+778   Hit    S      S      S      S      S      S      S      S      S      S      S      S     778  
+00TK  H      Hit    S      S      S      S      S      S      S      S      S      S      S     00TK 
+00JQ  H      Hit    S      S      S      S      S      S      S      S      S      S      S     00JQ 
+00QQ  Hit    S      S      S      S      S      S      S      S      S      S      S      S     00QQ 
+0A9K  H      Hit    Hit    S      S      S      S      S      S      S      S      S      S     0A9K 
+0ATQ  H      Hit    Hit    S      S      S      S      S      S      S      S      S      S     0ATQ 
+0ATK  Hit    S      S      S      S      S      S      S      S      S      S      S      S     0ATK 
+0AJJ  H      Hit    Hit    S      S      S      S      S      S      S      S      S      S     0AJJ 
+028K  H      Hit    S      S      S      S      S      S      S      S      S      S      S     028K 
+029Q  H      Hit    S      S      S      S      S      S      S      S      S      S      S     029Q 
+02TJ  H      Hit    S      S      S      S      S      S      S      S      S      S      S     02TJ 
+037K  H      Hit    S      S      S      S      S      S      S      S      S      S      S     037K 
+038Q  H      Hit    S      S      S      S      S      S      S      S      S      S      S     038Q 
+039J  H      Hit    S      S      S      S      S      S      S      S      S      S      S     039J 
+03TT  H      Hit    S      S      S      S      S      S      S      S      S      Hit    S     03TT 
+045K  H      H      H      H      H      H      H      Stand  Stand  H      H      H      H     045K 
+047K  Hit    S      S      S      S      S      S      S      S      S      S      S      S     047K 
+048Q  Hit    S      S      S      S      S      S      S      S      S      S      S      S     048Q 
+049J  Hit    S      S      S      S      S      S      S      S      S      S      S      S     049J 
+04TT  Hit    S      S      S      S      S      S      S      S      S      S      S      S     04TT 
+055Q  H      H      H      H      Stand  H      Stand  Stand  Stand  H      H      H      H     055Q 
+055K  H      Hit    Hit    S      Hit    S      S      S      S      S      S      Hit    Hit   055K 
+056Q  H      Hit    Hit    S      S      S      S      S      S      S      S      S      Hit   056Q 
+056K  Hit    S      S      S      S      S      S      S      S      S      S      S      S     056K 
+057J  H      Hit    S      S      S      S      S      S      S      S      S      Hit    Hit   057J 
+057Q  Hit    S      S      S      S      S      S      S      S      S      S      S      S     057Q 
+058T  H      Hit    S      S      S      S      S      S      S      S      S      Hit    Hit   058T 
+0599  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   0599 
+059T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     059T 
+066J  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   066J 
+066Q  Hit    S      S      S      S      S      S      S      S      S      S      S      S     066Q 
+067T  H      Hit    S      S      S      S      S      S      S      S      S      Hit    Hit   067T 
+0689  H      Hit    S      S      S      S      S      S      S      S      S      Hit    Hit   0689 
+068T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     068T 
+0699  Hit    S      S      S      S      S      S      S      S      S      S      S      S     0699 
+0779  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   0779 
+077T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     077T 
+0788  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   0788 
+0789  Hit    S      S      S      S      S      S      S      S      S      S      S      S     0789 
+0888  Hit    S      S      S      S      S      S      S      S      S      S      S      S     0888 
+AA8K  H      Hit    Hit    S      S      S      S      S      S      S      S      S      S     AA8K 
+AA9Q  H      Hit    Hit    S      S      S      S      S      S      S      S      S      S     AA9Q 
+AA9K  Hit    S      S      S      S      S      S      S      S      S      S      S      S     AA9K 
+AATJ  H      Hit    Hit    S      S      S      S      S      S      S      S      S      S     AATJ 
+AATQ  Hit    S      S      S      S      S      S      S      S      S      S      S      S     AATQ 
+A27K  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A27K 
+A28Q  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A28Q 
+A28K  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A28K 
+A29J  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A29J 
+A2TT  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A2TT 
+A35K  H      H      H      H      H      H      H      H      Stand  H      H      H      H     A35K 
+A36K  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A36K 
+A37Q  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A37Q 
+A38J  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A38J 
+A39T  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A39T 
+A45Q  H      H      H      H      H      H      H      Stand  Stand  H      H      H      H     A45Q 
+A46K  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A46K 
+A47Q  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A47Q 
+A48J  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A48J 
+A49T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A49T 
+A55J  H      H      H      H      Stand  H      Stand  Stand  Stand  Stand  H      H      H     A55J 
+A55Q  H      Hit    Hit    S      S      S      S      S      S      S      S      S      Hit   A55Q 
+A55K  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A55K 
+A56T  H      H      H      H      H      H      H      H      Stand  H      H      H      H     A56T 
+A56J  H      Hit    S      S      S      S      S      S      S      S      S      S      S     A56J 
+A56Q  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A56Q 
+A579  H      H      H      H      H      H      H      H      Stand  H      H      H      H     A579 
+A57T  H      Hit    S      S      S      S      S      S      S      S      S      Hit    Hit   A57T 
+A57J  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A57J 
+A589  H      Hit    S      S      S      S      S      S      S      S      S      Hit    Hit   A589 
+A58T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A58T 
+A599  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A599 
+A66T  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   A66T 
+A66J  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A66J 
+A679  H      Hit    S      S      S      S      S      S      S      S      S      Hit    Hit   A679 
+A67T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A67T 
+A688  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   A688 
+A689  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A689 
+A778  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   A778 
+A779  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A779 
+A788  Hit    S      S      S      S      S      S      S      S      S      S      S      S     A788 
+225K  H      H      H      H      H      H      H      Stand  Stand  H      H      H      H     225K 
+226K  H      Hit    S      S      S      S      S      S      S      S      S      S      S     226K 
+227Q  H      Hit    S      S      S      S      S      S      S      S      S      S      S     227Q 
+228J  H      Hit    S      S      S      S      S      S      S      S      S      S      S     228J 
+229T  H      Hit    S      S      S      S      S      S      S      S      S      S      S     229T 
+22TT  Hit    S      S      S      S      S      S      S      S      S      S      S      S     22TT 
+235Q  H      H      H      H      Stand  H      H      Stand  Stand  H      H      H      H     235Q 
+2399  H      Hit    S      S      S      S      S      S      S      S      S      S      S     2399 
+245J  H      H      H      H      Stand  H      Stand  Stand  Stand  H      H      H      H     245J 
+2499  Hit    S      S      S      S      S      S      S      S      S      S      S      S     2499 
+255T  H      H      H      H      Stand  Stand  Stand  Stand  Stand  Stand  H      H      H     255T 
+255J  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    S     255J 
+255Q  Hit    S      S      S      S      S      S      S      S      S      S      S      S     255Q 
+2569  H      H      H      H      Stand  H      H      Stand  Stand  H      H      H      H     2569 
+256T  H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   256T 
+2578  H      H      H      H      Stand  H      Stand  Stand  Stand  H      H      H      H     2578 
+2579  H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   2579 
+2588  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   2588 
+2669  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   2669 
+266T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     266T 
+2678  H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   2678 
+2688  Hit    S      S      S      S      S      S      S      S      S      S      S      S     2688 
+2777  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   2777 
+2778  Hit    S      S      S      S      S      S      S      S      S      S      S      S     2778 
+335J  H      H      H      H      H      H      H      Stand  Stand  H      H      H      H     335J 
+335Q  H      Hit    S      S      S      S      S      S      S      S      S      S      S     335Q 
+336J  H      Hit    S      S      S      S      S      S      S      S      S      S      S     336J 
+337T  H      Hit    S      S      S      S      S      S      S      S      S      S      S     337T 
+3389  H      Hit    S      S      S      S      S      S      S      S      S      S      S     3389 
+345T  H      H      H      H      Stand  H      Stand  Stand  Stand  H      H      H      H     345T 
+3559  H      H      H      H      Stand  Stand  Stand  Stand  Stand  Stand  H      H      H     3559 
+355T  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   355T 
+3568  H      H      H      H      Stand  H      Stand  Stand  Stand  H      H      H      H     3568 
+3569  H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   3569 
+3577  H      H      H      H      H      H      H      H      Stand  H      H      H      H     3577 
+3578  H      S      S      S      S      S      S      S      S      S      S      Hit    Hit   3578 
+3666  H      H      H      H      H      Stand  H      Stand  Stand  H      H      H      H     3666 
+3668  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   3668 
+3677  H      Hit    Hit    S      S      S      S      S      S      S      S      Hit    Hit   3677 
+3777  Hit    S      S      S      S      S      S      S      S      S      S      S      S     3777 
+444Q  Hit    S      S      S      S      S      S      S      S      S      S      S      S     444Q 
+4459  H      H      H      H      Stand  H      Stand  Stand  Stand  H      H      H      H     4459 
+445J  Hit    S      S      S      S      S      S      S      S      S      S      S      S     445J 
+446T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     446T 
+4479  Hit    S      S      S      S      S      S      S      S      S      S      S      S     4479 
+4488  Hit    S      S      S      S      S      S      S      S      S      S      S      S     4488 
+4558  H      H      H      H      Stand  Stand  Stand  Stand  Stand  Stand  H      H      H     4558 
+455T  Hit    S      S      S      S      S      S      S      S      S      S      S      S     455T 
+4566  H      H      H      H      H      H      H      H      Stand  H      H      H      H     4566 
+4567  H      H      H      H      H      H      H      Stand  Stand  H      H      H      H     4567 
+4569  Hit    S      S      S      S      S      S      S      S      S      S      S      S     4569 
+4577  H      Hit    S      S      S      S      S      S      S      S      S      S      S     4577 
+4578  Hit    S      S      S      S      S      S      S      S      S      S      S      S     4578 
+4667  H      Hit    S      S      S      S      S      S      S      S      S      S      S     4667 
+4668  Hit    S      S      S      S      S      S      S      S      S      S      S      S     4668 
+4677  Hit    S      S      S      S      S      S      S      S      S      S      S      S     4677 
+5557  H      H      H      H      Stand  Stand  Stand  Stand  Stand  Stand  H      H      H     5557 
+5558  H      Hit    Hit    S      Hit    S      S      S      S      S      Hit    Hit    Hit   5558 
+5559  Hit    S      S      S      S      S      S      S      S      S      S      S      S     5559 
+5566  H      H      H      H      H      H      Stand  Stand  Stand  H      H      H      H     5566 
+5567  H      Hit    Hit    S      Hit    S      S      S      S      S      S      Hit    Hit   5567 
+5568  Hit    S      S      S      S      S      S      S      S      S      S      S      S     5568 
+5577  Hit    S      S      S      S      S      S      S      S      S      S      S      S     5577 
+5666  H      Hit    Hit    Hit    Hit    S      S      S      S      S      Hit    Hit    Hit   5666 
+5667  Hit    S      S      S      S      S      S      S      S      S      S      S      S     5667 
+6666  Hit    S      S      S      S      S      S      S      S      S      S      S      S     6666 
+ 
+ 
+      A      2      3      4      5      6      7      8      9      T      J      Q      K       
+ 
+KEY
+ 
+0     = a card with a rank of Joker
+A     = a card with a rank of Ace
+2     = a card with a rank of Two
+3     = a card with a rank of Three
+4     = a card with a rank of Four
+5     = a card with a rank of Five
+6     = a card with a rank of Six
+7     = a card with a rank of Seven
+8     = a card with a rank of Eight
+9     = a card with a rank of Nine
+T     = a card with a rank of Ten
+J     = a card with a rank of Jack
+Q     = a card with a rank of Queen
+K     = a card with a rank of King
+top   = rank of the exposed card in the Dealer's Hand
+left  = ranks of the cards in the Player's Hand
+S     = Stand in accordance with Basic Strategy
+H     = Hit in accordance with Basic Strategy
+Stand = Stand in accordance with Exception Rules
+Hit   = Hit in accordance with Exception Rules

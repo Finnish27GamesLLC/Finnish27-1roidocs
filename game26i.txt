@@ -1,0 +1,264 @@
+enter the 'folder/filename prefix' of the files
+to be used to store application output.
+1roidocs/game26
+ 
+select a method of loading a user-defined set of game rules
+into program memory. press y and enter to load from a set of
+data files, else press enter to load by responding to a
+series of prompts for user-input made by the program.
+
+ 
+enter the 'folder/filename prefix' of the files
+containing data about the poker hand values and hand totals 
+to be loaded into program memory.
+5cphdocs/BugB
+ 
+the description of the databases reads as follows: 
+open 5cphdocs/BugBi.txt to see a record of user input                           
+ 
+if this is acceptable type 'y' and press enter, else press enter 
+y
+
+ 
+press 'y' and enter for a standard deck composition 
+y
+ 
+input the number of cards assigned a value of  0  points.
+ 2 
+ 
+input the number of cards assigned a value selected from a group consisting of 1 point and 14 points.
+ 4 
+ 
+input the number of cards assigned a value of  2  points.
+ 4 
+ 
+input the number of cards assigned a value of  3  points.
+ 4 
+ 
+input the number of cards assigned a value of  4  points.
+ 4 
+ 
+input the number of cards assigned a value of  5  points.
+ 4 
+ 
+input the number of cards assigned a value of  6  points.
+ 4 
+ 
+input the number of cards assigned a value of  7  points.
+ 4 
+ 
+input the number of cards assigned a value of  8  points.
+ 4 
+ 
+input the number of cards assigned a value of  9  points.
+ 4 
+ 
+input the number of cards assigned a value of  10  points.
+ 4 
+ 
+input the number of cards assigned a value of  11  points.
+ 4 
+ 
+input the number of cards assigned a value of  12  points.
+ 4 
+ 
+input the number of cards assigned a value of  13  points.
+ 4 
+ 
+input the number of decks used
+ 8 
+ 
+the number of decks used 
+ 8 
+ 
+input the maximum percentage of the stack of cards
+remaining in the shoe when the dealer reshuffles (15-99) 
+ 12.5 
+ 
+input the hard total that the dealer must stand at 
+ 23 
+ 
+input soft total that the dealer must stand at
+when holding a hand consisting of two cards (23 - 27) 
+ 25 
+ 
+input soft total that the dealer must stand at
+when holding a hand consisting of three cards (23 - 27) 
+ 26 
+ 
+input soft total that the dealer must stand at
+when holding a hand consisting of four cards (23 - 27) 
+ 27 
+ 
+input the hard total that the player must stand at, else press enter.
+ 25 
+ 
+input the soft total that the player must stand at, else press enter.
+ 27 
+ 
+press 1 and enter for dealer takes no hole card else press enter
+ 0 
+ 
+press 1 and enter for if the dealer's up card is an ace,
+then the dealer offers an insurance-side bet that is equal in
+size to half of the amount of the game wager, and that pays off
+at user-defined odds in the event that the dealer draws an 
+initial hand consisting of an ace and a king, 
+else press enter
+ 1
+ 
+input the odds on the game wager paid in the event that 
+the player places an insurance side bet and the dealer
+does draw an initial hand consisting of an ace and a king
+ 10 
+ 
+ 
+add one of three rules to specify the outcome of games wherein
+a tie-score contest does occur.
+ 
+press enter to add a rule to specify a nobody-wins-ties contest occurs.
+press 1 and enter to add a rule to specify a dealer-wins ties contest occurs.
+press 2 and enter to add a rule to specify a player-wins-ties contest occurs.
+ 0 
+ 
+add one of three rules to specify the outcome of games wherein
+a player-bust contest does occur.
+ 
+press enter to add a rule to specify a player-bust-loss contest occurs.
+press 1 and enter to add a rule to specify a player-bust-push contest occurs.
+press 2 and enter to add a rule to specify a player-bust-win contest occurs.
+ 0 
+ 
+add one of three rules to specify the outcome of games wherein
+a dealer-bust contest does occur.
+ 
+press enter to add a rule to specify a dealer-bust-loss contest occurs.
+press 1 and enter to add a rule to specify a dealer-bust-push contest occurs.
+press 2 and enter to add a rule to specify a dealer-bust-win contest occurs.
+ 0 
+ 
+add one of three rules to specify the outcome of games wherein
+a double-bust contest does occur.
+ 
+press enter to add a rule to specify a double-bust-loss contest occurs.
+press 1 and enter to add a rule to specify a double-bust-push contest occurs.
+press 2 and enter to add a rule to specify a double-bust-win contest occurs.
+ 0 
+ 
+add one of three rules to specify the outcome of games wherein
+the dealer's hand total does equal twenty-eight points,
+and wherein the dealer bust does occur.
+
+press enter to add a rule to specify the outcome conforms to normal rules
+press 1 and enter to add a rule to specify the outcome is nobody wins.
+press 2 and enter to add a rule to specify the outcome is the dealer wins.
+ 0 
+ 
+press 1 and enter for an initial hand that consists of
+a pair of jokers has a value of twenty-seven points,
+and in most cases is a predetermined-winning-complete hand,
+else press enter 
+ 1 
+ 
+press 1 and enter for an initial hand that consists of 
+an ace and a king has a value of twenty-seven points,
+and in most cases is a predetermined-winning-complete hand, 
+else press enter 
+ 1 
+ 
+press 1 and enter for an initial hand that consists of 
+a joker and a card of any rank has a value of twenty-seven points,
+and in most cases is a predetermined-winning-complete hand,
+else press enter 
+0
+ 
+press 1 and enter for any initial hand that includes
+a joker as the second card has a value of twenty-seven points,
+and in most cases is a predetermined-winning-complete hand,
+else press enter 
+1
+ 
+press 1 and enter for any player hand consisting of nine cards 
+with numerical sum value of less than twenty-eight points
+is a predetermined-winning-complete hand, else press enter 
+ 0 
+ 
+press 1 and enter to allow the player to surrender, else press enter 
+ 0 
+ 
+press 1 and enter for allow the player to double down, else press enter
+ 0 
+ 
+press 1 and enter to allow the player to split, else press enter 
+ 0 
+ 
+input the odds on the game wager that the dealer will pay the player for
+a predetermined-winning-complete hand that consists of 
+a pair of jokers. 
+ 3 
+ 
+input the odds on the game wager that the dealer will pay the player for
+an predetermined-winning-complete hand that consists of 
+an ace and a king. 
+ 2 
+ 
+input the odds on the game wager that the dealer will pay the player for
+a predetermined-winning-complete hand consisting of an initial hand that includes
+a joker as the second card. 
+ 1 
+ 
+press 1 and enter for in most cases any player hand 
+that has a numerical sum value of twenty-seven points
+is a predetermined-winning-complete hand, 
+else press enter 
+ 1 
+ 
+press 1 and enter for in most cases any dealer hand 
+that has a numerical sum value of twenty-seven points
+is a predetermined-winning-complete hand, 
+else press enter 
+ 1 
+ 
+press 1 and enter for a player's initial hand with a value of 27 points
+beats a dealer's initial hand with a value of 27 points,
+else press enter 
+ 1 
+ 
+press 1 and enter for bonus 27 payouts, else press enter 
+ 1 
+ 
+enter bonus payout for a five card hand that has a numerical value of twenty-seven,
+else press enter 
+ 2 
+ 
+enter bonus payout for 8-9-10 mixed suits, else press enter 
+ 2 
+ 
+enter bonus payout for 8-9-10 same suit, else press enter 
+ 2 
+ 
+enter bonus payout for 8-9-10 spades suit, else press enter 
+ 2 
+ 
+enter bonus payout for 9-9-9 mixed suits, else press enter 
+ 2 
+ 
+enter bonus payout for 9-9-9 same suit, else press enter 
+ 2 
+ 
+enter jackpot for 9-9-9 mixed suit and any dealer 9-9,
+else press enter 
+ 2 
+ 
+enter jackpot for 9-9-9 same suit and any dealer 9-9,
+else press enter 
+ 2 
+ 
+ 
+a brief description of the game rules reads as follows: 
+open 1roidocs/game26i.txt to see a list of user-defined game rules
+
+
+START: 08-05-2018 09:18:15
+
+END:   08-05-2018 12:34:17
