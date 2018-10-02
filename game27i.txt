@@ -243,6 +243,6 @@ a brief description of the game rules reads as follows:
 open 1roidocs/game27i.txt to see a list of user-defined game rules
 
 
-START: 09-23-2018 02:50:50
+START: 10-01-2018 18:19:49
 
-END:   09-23-2018 06:06:22
+END:   10-01-2018 22:17:43
